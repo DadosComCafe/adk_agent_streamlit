@@ -5,5 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "google-adk>=1.28.0",
+    "google-genai>=1.69.0",
+    "pydantic==2.12.5",
+    "python-decouple>=3.8",
     "streamlit>=1.55.0",
 ]
